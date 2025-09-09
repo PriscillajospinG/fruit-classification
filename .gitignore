@@ -1,0 +1,147 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Machine Learning / Data Science
+models/*.h5
+models/*.pkl
+models/*.joblib
+models/*.onnx
+*.h5
+*.pkl
+*.joblib
+
+# Training data and datasets
+data/fruits/*/
+data/raw/
+data/processed/
+datasets/
+*.csv
+*.json
+*.parquet
+
+# Logs and outputs
+logs/
+*.log
+tensorboard_logs/
+training_history.png
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Cache
+.cache/
+*.cache
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project specific
+# Uncomment if you want to ignore collected training images
+# data/fruits/apple/*
+# data/fruits/banana/*
+# data/fruits/orange/*
+# data/fruits/grape/*
+# data/fruits/strawberry/*
+# data/fruits/kiwi/*
+# data/fruits/mango/*
+# data/fruits/pineapple/*
