@@ -1,6 +1,16 @@
 # Fruit Classification with Live Camera Detection
 
-Real-time fruit classification using computer vision and deep learning. Identifies fruits through your webcam in real-time.
+Re### 2. Live Detection (Default)
+```bash
+python main.py
+# or
+python main.py live
+```
+- Points camera at fruit
+- Places fruit in green rectangle on screen
+- Press 'q' to quit
+
+### 3. Train Custom Modelit classification using computer vision and deep learning. Identifies fruits through your webcam in real-time.
 
 ## Supported Fruits
 Apple, Banana, Orange, Grape, Strawberry, Kiwi, Mango, Pineapple
@@ -43,7 +53,15 @@ Apple, Banana, Orange, Grape, Strawberry, Kiwi, Mango, Pineapple
 source .venv/bin/activate  # On macOS/Linux
 ```
 
-### 1. Live Detection (Default)
+### 1. Train with Fruits-360 Dataset (Recommended)
+```bash
+python main.py train-fruits360
+# or
+python train_fruits360.py
+```
+Uses the real Fruits-360 dataset for high-accuracy training.
+
+### 2. Live Detection (Default)
 ```bash
 python main.py
 # or
