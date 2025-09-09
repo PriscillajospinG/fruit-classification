@@ -7,17 +7,41 @@ Apple, Banana, Orange, Grape, Strawberry, Kiwi, Mango, Pineapple
 
 ## Quick Start
 
-1. **Install dependencies**:
+1. **Create and activate virtual environment**:
    ```bash
+   # Create virtual environment
+   python -m venv .venv
+   
+   # Activate virtual environment
+   # On macOS/Linux:
+   source .venv/bin/activate
+   
+   # On Windows:
+   # .venv\Scripts\activate
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   pip install --upgrade pip
    pip install -r requirements.txt
    ```
 
-2. **Run the application**:
+3. **Run the application**:
    ```bash
    python main.py
    ```
 
+4. **When done, deactivate virtual environment**:
+   ```bash
+   deactivate
+   ```
+
 ## Usage Options
+
+**Note**: Make sure your virtual environment is activated before running any commands:
+```bash
+source .venv/bin/activate  # On macOS/Linux
+```
 
 ### 1. Live Detection (Default)
 ```bash
@@ -51,7 +75,33 @@ Trains a basic model and shows how to use the system.
 
 - Python 3.7+
 - Working webcam
+- Virtual environment (recommended)
 - Dependencies in `requirements.txt`
+
+## Installation Steps
+
+1. **Clone or download the project**
+2. **Navigate to project directory**:
+   ```bash
+   cd fruit-classification
+   ```
+3. **Create virtual environment**:
+   ```bash
+   python -m venv .venv
+   ```
+4. **Activate virtual environment**:
+   ```bash
+   # macOS/Linux:
+   source .venv/bin/activate
+   
+   # Windows:
+   .venv\Scripts\activate
+   ```
+5. **Install dependencies**:
+   ```bash
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
 
 ## How It Works
 
@@ -88,5 +138,12 @@ fruit-classification/
 - Ensure clean background
 
 **Installation issues:**
-- Use Python virtual environment
+- Use Python virtual environment (recommended)
 - Update pip: `pip install --upgrade pip`
+- Make sure virtual environment is activated
+- On macOS, may need: `brew install python-tk`
+
+**Virtual environment issues:**
+- If activation fails, try: `python3 -m venv .venv`
+- Ensure you're in the project directory
+- Use `which python` to verify correct Python version
