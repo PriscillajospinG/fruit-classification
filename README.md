@@ -40,82 +40,14 @@ python train_fruits360.py
 ```bash
 python main.py live
 ```
-**Controls**: Place fruit in green box, press 'q' to quit, 's' to save, 'p' for top predictions
-Apple, Banana, Orange, Grape, Strawberry, Kiwi, Mango, Pineapple
-
-## Quick Start
-
-1. **Create and activate virtual environment**:
-   ```bash
-   # Create virtual environment
-   python -m venv .venv
-   
-   # Activate virtual environment
-   # On macOS/Linux:
-   source .venv/bin/activate
-   
-   # On Windows:
-   # .venv\Scripts\activate
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   pip install --upgrade pip
-   pip install -r requirements.txt
-   ```
-
-3. **Run the application**:
-   ```bash
-   python main.py
-   ```
-
 4. **When done, deactivate virtual environment**:
    ```bash
    deactivate
    ```
 
-## Usage Options
+**Controls**: Place fruit in green box, press 'q' to quit, 's' to save, 'p' for top predictions
+Apple, Banana, Orange, Grape, Strawberry, Kiwi, Mango, Pineapple
 
-**Note**: Make sure your virtual environment is activated before running any commands:
-```bash
-source .venv/bin/activate  # On macOS/Linux
-```
-
-### 1. Train with Fruits-360 Dataset (Recommended)
-```bash
-python main.py train-fruits360
-# or
-python train_fruits360.py
-```
-Uses the real Fruits-360 dataset for high-accuracy training.
-
-### 2. Live Detection (Default)
-```bash
-python main.py
-# or
-python main.py live
-```
-- Points camera at fruit
-- Places fruit in green rectangle on screen
-- Press 'q' to quit
-
-### 2. Train Custom Model
-```bash
-python main.py train
-```
-Trains model with synthetic data (for demo) or your collected images.
-
-### 3. Collect Training Data
-```bash
-python src/data_collector.py
-```
-Interactive tool to capture fruit images with your camera.
-
-### 4. Quick Demo
-```bash
-python demo.py
-```
-Trains a basic model and shows how to use the system.
 
 ## Requirements
 
