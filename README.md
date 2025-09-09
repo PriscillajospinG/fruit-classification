@@ -1,6 +1,41 @@
 # Fruit Classification with Live Camera Detection
 
-Re### 2. Live Detection (Default)
+Re### 2. Live Detectio### 3. Train### 4. Colle### 5. Quick Demo
+```bash
+python demo.py
+```
+Trains a basic model and shows how to use the system.
+
+## Dataset Information
+
+This project supports multiple data sources:
+
+### Fruits-360 Dataset (Included)
+- **Location**: `data/fruits-360_100x100/fruits-360/`
+- **Size**: 100x100 pixel images
+- **Classes**: 130+ fruit and vegetable categories
+- **Training Images**: ~67,000 images
+- **Test Images**: ~22,000 images
+- **Accuracy**: High accuracy due to controlled conditions
+
+### Benefits of Fruits-360:
+- ✅ Professional dataset with consistent lighting
+- ✅ Multiple angles for each fruit
+- ✅ High-quality 100x100 images
+- ✅ Large variety of fruits and vegetables
+- ✅ Separate training and test setsaining Data
+```bash
+python src/data_collector.py
+```
+Interactive tool to capture fruit images with your camera.
+
+### 5. Quick Demo Model
+```bash
+python main.py train
+```
+Trains model with synthetic data (for demo) or your collected images.
+
+### 4. Collect Training Datault)
 ```bash
 python main.py
 # or
